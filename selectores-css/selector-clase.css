@@ -1,0 +1,24 @@
+.titulo1{
+    color: white;
+    background-color: black;
+    font-size: 50px;
+}
+
+.parrafo1{
+    color: blue;
+}
+
+.subtitulo{
+    color: brown;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.parrafo2{
+    color: green;
+    
+}
+
+.enlace{
+    text-decoration: none;
+}
