@@ -1,0 +1,19 @@
+.boton{
+    padding: 10px 18px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.boton.comprar{
+
+    background-color: rgb(255, 204, 19);
+    color: rgb(0, 0, 0);
+}
+
+.boton.alerta{
+
+    background-color: rgb(250, 45, 45);
+    color: rgb(0, 0, 0);
+}
