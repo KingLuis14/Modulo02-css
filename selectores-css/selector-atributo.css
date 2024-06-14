@@ -1,0 +1,18 @@
+.boton{
+    
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.boton[data-oferta]{
+    background-color: green;
+    color: white;
+    
+}
+
+.boton[data-oferta="agotado"]{
+    background-color: rgb(204, 47, 19);
+    color: white;
+}
