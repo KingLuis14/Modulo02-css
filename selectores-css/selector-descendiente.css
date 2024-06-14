@@ -1,0 +1,22 @@
+.container{
+    outline: 2px solid black;
+    padding: 10px;
+}
+
+.container p {
+    color: green;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+article{
+    outline: 2px solid rgb(250, 75, 62);
+}
+
+/* article p {
+    color: rgb(12, 68, 190);
+}
+
+.article p {
+    color: rgb(12, 68, 190);
+} */
