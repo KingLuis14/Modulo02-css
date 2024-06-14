@@ -1,0 +1,62 @@
+/* 
+    * = universal
+    > hijo directo
+    + hermano directo
+    ~ hermanos siguientes
+*/
+
+
+
+/* ejemplo 1 */
+
+/* *{
+    font-size: 50px;
+} */
+
+
+/* ejemplo 2 */
+
+/* .container * {
+    font-size: 50px;
+} */
+
+
+.container{
+    outline: 2px solid black;
+    padding: 10px;
+}
+
+article{
+    outline: 2px solid rgb(250, 75, 62);
+}
+
+/* ejemplo 3 */
+
+/* .container > p {
+    font-size: 50px;
+} */
+
+
+.subtitulo {
+    background-color: rgb(255, 210, 10);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+/* ejemplo 4 */
+
+/* .subtitulo + p {
+    background-color: rgb(211, 210, 210);
+    font-size: 28px;
+    width: max-content;
+} */
+
+
+/* ejemplo 5   = alt + 126 */
+
+
+/* .subtitulo ~ p {
+    background-color: rgb(211, 210, 210);
+    font-size: 28px;
+    width: max-content;
+} */
