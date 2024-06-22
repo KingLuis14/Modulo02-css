@@ -1,0 +1,29 @@
+/* estilo general */
+
+.boton{
+    padding: .5rem 1rem;
+}
+
+/* Especificidad (1,0,2)  = 102*/
+body a#boton{ 
+    background-color: green;
+}
+
+/* Especificidad (1,0,1)  = 101*/
+a#boton{
+    background-color: blue;
+}
+
+/* Especificidad (1,0,0)  = 100*/
+#boton{
+    background-color: red;
+}
+
+/* Especificidad (0,1,1)  = 11*/
+a.boton{
+    background-color: orange;
+}
+
+
+
+
